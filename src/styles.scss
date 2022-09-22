@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+main {
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+menu {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  flex: 0.3 0.6 0;
+}
