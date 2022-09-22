@@ -1,7 +1,8 @@
 import * as React from "react";
-import Logo from "../images/Logo.png";
-
 import type { HeadFC } from "gatsby";
+
+import Logo from "../images/Logo.png";
+import HomeVideo from "../assets/doc-homepage-video.mp4";
 
 import "../styles.scss";
 
@@ -21,7 +22,11 @@ const IndexPage = () => {
           </ul>
         </menu>
       </nav>
-      <div className=""></div>
+      <div className="video__container">
+        <video autoPlay controls>
+          <source src={HomeVideo} type="video/mp4" />
+        </video>
+      </div>
     </main>
   );
 };
